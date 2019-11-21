@@ -14,8 +14,4 @@ client.on('ready', () => {
 
  
 
-// THIS  MUST  BE  THIS  WAY
-
 client.login(token).catch(err => console.log(err));
-
-//"token" is the Client Secret
